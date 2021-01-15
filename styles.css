@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+   background-color: #000;
+}
+
+.container{
+   background-color: #FFF;
+   width: 100%;
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+}
+
+.container div{
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+}
+
+.container-header{
+   display: flex;
+   flex-flow: column;
+}
+
+.container-title{
+   display: flex;
+   flex-flow: row wrap;
+}
+.title{
+   color: #D6000D;
+}
+
+.point{
+   color: #000;
+}
+
+.container-menu a{
+   text-decoration: none;
+   color: #000;
+   font-size: 20px;
+   flex: 1;
+   padding: 10px;
+}
+
+.container-image1{
+   margin: 20px;
+}
+
+.container-image1 img{
+   width: 50%;
+   height: auto;
+}
+
+.container-button{
+   margin:20px;
+}
+
+.container-button button{
+   background-color: #D6000D;
+}
+
+button{
+   color: #fff;
+}
+
+.contact{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+}
+
+.contact button{
+   background-color:#D6000D;
+}
+
+.container-website{
+   color: #D6000D;
+   font-size: 40px;
+}
+
+.container-image2{
+   margin: 20px;
+}
+
+.container-image2 img{
+   width: 50%;
+   height: auto;
+}
+
+
+
+
+footer{
+   color: #fff;
+}
