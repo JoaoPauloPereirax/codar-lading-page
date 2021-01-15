@@ -12,14 +12,14 @@
 </p>
 
 <br>
-<a href="https://github.com/JoaoPauloPereirax/codar-landing-page/blob/master/design/desktop.png" align="center">
-  <h2>Desktop version</h2>
+<a href="https://github.com/JoaoPauloPereirax/codar-landing-page/blob/master/design/desktop.png" >
+  <h2 align="center">Desktop version</h2>
    <p align="center">
    <img alt="Codar" src="./design/desktop.png" width="80%">
    </p>
 </a>
-<a href="https://github.com/JoaoPauloPereirax/codar-landing-page/blob/master/design/mobile.png" align="center">
-  <h2>Mobile version</h2>
+<a href="https://github.com/JoaoPauloPereirax/codar-landing-page/blob/master/design/mobile.png" >
+  <h2 align="center">Mobile version</h2>
    <p align="center">
    <img alt="Codar" src="./design/mobile.png" width="30%">
    </p>
