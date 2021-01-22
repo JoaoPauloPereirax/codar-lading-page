@@ -1,96 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+*{
+   font-family: "Roboto", sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
 body{
    background-color: #000;
 }
 
-.container{
-   background-color: #FFF;
-   width: 100%;
+header{
    display: flex;
-   flex-flow: column nowrap;
    justify-content: center;
 }
 
-.container div{
-   padding: 10px;
-   display: flex;
-   justify-content: center;
+.container{
+   margin: 0;
+   padding: 0;
+   background-color: #FFF;
+   width: 100%;
 }
 
 .container-header{
+   padding: 30px;
    display: flex;
-   flex-flow: column;
+   flex-direction: row;
+   justify-content: space-between;
 }
 
-.container-title{
-   display: flex;
-   flex-flow: row wrap;
-}
 .title{
-   color: #D6000D;
+   font-size: 50px;
+   color: #d6000d;
 }
 
 .point{
    color: #000;
 }
 
-.container-menu a{
-   text-decoration: none;
+.container-menu{
+   font-size: 50px;
+}
+
+.container-menu a {
    color: #000;
-   font-size: 20px;
-   flex: 1;
-   padding: 10px;
+   text-decoration: none;
 }
 
-.container-image1{
-   margin: 20px;
-}
-
-.container-image1 img{
-   width: 50%;
-   height: auto;
-}
-
-.container-button{
-   margin:20px;
-}
-
-.container-button button{
-   background-color: #D6000D;
-}
-
-button{
+.container-menu a:hover{
+   font-size: 50px;
    color: #fff;
+   background-color: #d6000d;
 }
 
-.contact{
+
+#budget{
    display: flex;
-   flex-flow: row wrap;
    justify-content: center;
 }
 
-.contact button{
-   background-color:#D6000D;
+
+
+.budget{
+   margin-bottom: 270px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
 }
 
-.container-website{
-   color: #D6000D;
-   font-size: 40px;
+.budget_image{
+   flex: 1;
 }
 
-.container-image2{
-   margin: 20px;
+.budget_image img{
+   width: 60%;
 }
 
-.container-image2 img{
-   width: 50%;
-   height: auto;
+.budget_inf{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
+.budget_inf h2{
+   font-size: 60px;
+   color: #d6000d;
+   margin-bottom: 75px;
+}
 
+.budget_inf h3{
+   font-size: 24px;
+}
 
-
-footer{
+.budget_inf button{
+   background-color: #d6000d;
    color: #fff;
+   font-size: 30px;
+   padding: 5px;
+   width: 300px;
 }
+
