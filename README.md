@@ -1,8 +1,9 @@
-<div align="center">
-<img src="./assets/video_call.png" width="250px" /><br>
- <h1><strong align="center">Codar</strong></h1>
-</div>
-
+<a href="https://joaopaulopereirax.github.io/codar-landing-page/">
+  <div align="center">
+    <img src="./assets/video_call.png" width="250px" /><br>
+    <h1><strong align="center">Codar</strong></h1>
+  </div>
+</a>
 <p align="center">
   <a href="#page_with_curl-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#wrench-built-with">Built With</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -28,6 +29,7 @@
 ## :page_with_curl: About
 
 - The challenge is to create a page about a company that develops websites (Codar): [Desafio Codar](https://devchallenge.now.sh/challenges/5ed47992adee277fae224a0b/details)
+- Github pages: [Hosted](https://joaopaulopereirax.github.io/codar-landing-page/)
 
 ## :wrench: Built With
 
