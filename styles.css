@@ -8,6 +8,8 @@
 
 body{
    background-color: #000;
+   display: flex;
+   flex-direction: column;
 }
 
 header{
@@ -16,8 +18,6 @@ header{
 }
 
 .container{
-   margin: 0;
-   padding: 0;
    background-color: #FFF;
    width: 100%;
 }
@@ -30,7 +30,7 @@ header{
 }
 
 .title{
-   font-size: 50px;
+   font-size: 70px;
    color: #d6000d;
 }
 
@@ -39,16 +39,18 @@ header{
 }
 
 .container-menu{
-   font-size: 50px;
+   padding-top: 40px;
 }
 
 .container-menu a {
+   align-items: center;
+   padding-right: 50px;
+   font-size: 30px;
    color: #000;
    text-decoration: none;
 }
 
 .container-menu a:hover{
-   font-size: 50px;
    color: #fff;
    background-color: #d6000d;
 }
@@ -62,7 +64,6 @@ header{
 
 
 .budget{
-   margin-bottom: 270px;
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -73,6 +74,7 @@ header{
 }
 
 .budget_image img{
+   padding: 60px;
    width: 60%;
 }
 
@@ -86,7 +88,6 @@ header{
 .budget_inf h2{
    font-size: 60px;
    color: #d6000d;
-   margin-bottom: 75px;
 }
 
 .budget_inf h3{
@@ -101,3 +102,23 @@ header{
    width: 300px;
 }
 
+.benefits{
+   display: flex;
+   justify-content: center;
+
+}
+
+.benefits_list{
+   flex: 1;
+   text-align: center;
+   justify-content: center;
+}
+
+.benefits_image{
+   flex: 1;
+   margin: auto;
+}
+
+.benefits_image img {
+   width: 400px;
+}
